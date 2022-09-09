@@ -28,4 +28,6 @@ t2 += 1;
 }
 t1 += 1;
 }
-putcha
+putchar('\n');
+return (0);
+}
