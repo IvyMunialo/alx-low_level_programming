@@ -24,8 +24,8 @@ if (t1 != 56 || t2 != 57)
 putchar(com);
 putchar(32);
 }
-n2 += 1;
+t2 += 1;
 }
-n1 += 1;
+t1 += 1;
 }
 putcha
