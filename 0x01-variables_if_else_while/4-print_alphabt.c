@@ -9,7 +9,7 @@
 int main(void)
 {
 char Alphabets = 'a';
-for(Alphabets = 'a'; Alphabets <= 'z'; Alphabets++)
+for (Alphabets = 'a'; Alphabets <= 'z'; Alphabets++)
 {
 if (Alphabets == 'q' || Alphabets == 'e')
 {
