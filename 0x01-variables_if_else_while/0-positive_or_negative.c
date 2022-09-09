@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main- Entry point
  * Description:Program assigns a random number to a variable when executed
- * Returns:Always 0 (success/correct
+ * Return:Always 0 (success/correct
 */
 int main(void)
 {
