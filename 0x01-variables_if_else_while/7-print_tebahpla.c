@@ -8,11 +8,10 @@
 */
 int main(void)
 {
-char Alphabets = 'z';
-while (Alphabets >= 'a')
+char Alphabets;
+for (Alphabets = z; Alphabets >=a; Alphabets--)
 {
 putchar(Alphabets);
-Alphabets++;
 }
 putchar('\n');
 return (0);
