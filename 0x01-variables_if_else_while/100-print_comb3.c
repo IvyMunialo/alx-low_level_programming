@@ -12,7 +12,7 @@ int main(void)
 int t1 = 48;
 int t2;
 int com = 44;
-while (n1 <= 57)
+while (t1 <= 57)
 {
 t2 = t1 + 1;
 while (t2 <= 57)
