@@ -9,7 +9,7 @@
 int main(void)
 {
 char Alphabets = 'a';
-while (Alphabets <= 'z')
+for(Alphabets = 'a'; Alphabets <= 'z'; Alphabets++)
 {
 if (Alphabets == 'q' || Alphabets == 'e')
 {
@@ -19,7 +19,6 @@ else
 {
 putchar(Alphabets);
 }
-Alphabets++;
 }
 putchar('\n');
 return (0);
