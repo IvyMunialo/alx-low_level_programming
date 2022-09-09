@@ -12,7 +12,7 @@ int n = 48;
 char ch = 'a';
 for (n = 48; n <= 57; n++)
 {
-putchar(number);
+putchar(n);
 }
 for (ch = 'a'; ch <= 'f'; ch++)
 {
