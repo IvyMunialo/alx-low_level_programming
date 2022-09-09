@@ -9,7 +9,7 @@
 int main(void)
 {
 char Alphabets = 'z';
-while (Alphabets <= 'a')
+while (Alphabets >= 'a')
 {
 putchar(Alphabets);
 Alphabets++;
