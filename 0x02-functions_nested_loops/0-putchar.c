@@ -14,6 +14,6 @@ for (n = 0; n < strlen(Ivy_M); n++)
 {
 putchar (Ivy_M[n]);
 }
-putchar ('\n');
+_putchar ('\n');
 return (0);
 }
