@@ -9,8 +9,9 @@
 int main(void)
 {
 char Ivy_M[12] = "_putchar";
-int n = 0;
-for (n = 0; n < strlen(Ivy_M); n++)
+int n = 0, length = 0;
+length = strlen(Ivy_M);
+for (n = 0; n < length; n++)
 {
 _putchar (Ivy_M[n]);
 }
