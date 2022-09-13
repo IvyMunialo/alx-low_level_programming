@@ -12,8 +12,8 @@ char Ivy_M[12] = "_putchar";
 int n = 0;
 for (n = 0; n < strlen(Ivy_M); n++)
 {
-putchar (Ivy_M[n]);
+_putchar (Ivy_M[n]);
 }
-_putchar ('\n');
+putchar ('\n');
 return (0);
 }
