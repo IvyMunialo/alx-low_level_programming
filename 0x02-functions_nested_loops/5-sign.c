@@ -16,6 +16,7 @@ if (n == 0)
 {
 putchar('=');
 return (0);
+}
 else
 {
 putchar('-');
