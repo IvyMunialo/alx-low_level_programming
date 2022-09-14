@@ -3,9 +3,9 @@
 /**
  *_abs - computes absolute value of an integer
  *@a: is the integer that will be used for the argument
- *Return:always a (success)
+ *Return:always 0 (success)
 */
-int _abs(int)
+int _abs(int a)
 {
 if (a > 0 || a == 0)
 {
