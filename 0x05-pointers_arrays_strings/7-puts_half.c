@@ -15,8 +15,8 @@ if (index % 2 == 1)
 half++;
 while (half < index)
 {
-_putchar(str[half]);
+puts_half(str[half]);
 half++;
 }
-_putchar('\n');
+puts_half('\n');
 }
