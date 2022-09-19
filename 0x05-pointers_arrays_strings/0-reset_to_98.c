@@ -7,9 +7,9 @@
 int main(void)
 {
 int n;
-n = 402;
+*n = 402;
 printf("value of 'n' : %d\n", n);
 reset_to_98(&n);
-printf("value of 'n' : %d\n", n);
+printf("value of 'n' : %p\n", n);
 return (0);
 }
