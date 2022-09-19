@@ -2,28 +2,28 @@
 #include "main.h"
 /**
  *rev_string - reverses a string
- *@s: is the string tobe modified
+ *@s: is the string to be modified
  *
  *Return:void
  */
 void rev_string(char *s)
 {
-int a, b, c;
-char *d, aux;
-d = s;
-while (s[b] != '\0')
+int i, c, k;
+char *a, aux;
+a = s;
+while (s[c] != '\0')
 {
-b++;
+c++;
 }
-for (c = 1; c < b; c++)
+for (k = 1; k < c; k++)
 {
-d++;
+a++;
 }
-for (a = 0; a < (b / 2); a++)
+for (i = 0; i < (c / 2); i++)
 {
-aux = s[a];
-s[a] = *d;
-*d = aux;
-d--;
+aux = s[i];
+s[i] = *a;
+*a = aux;
+a--;
 }
 }
