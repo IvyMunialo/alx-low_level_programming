@@ -25,4 +25,5 @@ s[a] = *d;
 *d = aux;
 d--;
 }
+putchar(10);
 }
