@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 /**
+ *_putchar - function to print characters
  *reset_to_98 - funtion that resets value
  *Description:add all prototypes
  *Return:always 0 (success)
