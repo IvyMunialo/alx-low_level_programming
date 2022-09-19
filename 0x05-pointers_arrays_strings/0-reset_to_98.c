@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * main - check the code
+ * reset_to_98 - resets value
  * Return: Always 0.
 */
 int main(void)
