@@ -2,7 +2,7 @@
 /**
  *puts_half - function that prints half a string
  *
- *@str: stringtobe manipulated
+ *@str: string to be manipulated
 */
 void puts_half(char *str)
 {
@@ -15,8 +15,8 @@ if (index % 2 == 1)
 half++;
 while (half < index)
 {
-puts_half(str[half]);
+_putchar(str[half]);
 half++;
 }
-puts_half('\n');
+_putchar('\n');
 }
