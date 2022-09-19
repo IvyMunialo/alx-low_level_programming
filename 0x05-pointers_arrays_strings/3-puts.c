@@ -15,4 +15,5 @@ while (*(str + c) != '\0')
 putchar (*(str + c));
 c++;
 }
+putchar(10);
 }
