@@ -2,7 +2,16 @@
 #include <string.h>
 #include <stdio.h>
 /**
- *_puts - prints a string, followed by a new line
- *@str: is the string toprint
+ *print_rev - prints a string in reverse
+ *@s: is the string toreverse
  *successful: return no error
 */
+void print_rev(char *s)
+{
+int len = strlen(s);
+while (len--)
+{
+putchar(*(s + len));
+}
+putchar(10);
+}
