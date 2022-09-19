@@ -16,9 +16,9 @@ b++;
 }
 for (c = 1; c < b; c++)
 {
-d++
+d++;
 }
-for (a = 0; a < (b / 2)a++)
+for (a = 0; a < (b / 2); a++)
 {
 aux = s[a];
 s[a] = *d;
