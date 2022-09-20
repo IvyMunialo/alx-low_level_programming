@@ -12,7 +12,7 @@ if (n > 0)
 {
 for (line = 0; line <= n; line++)
 {
-putchar('_');
+putchar ('_');
 }
 }
 putchar ('\n');
