@@ -9,16 +9,16 @@
  */
 void print_most_numbers(void)
 {
-int n = 0;
-for (n = 0; n < 10; n++)
+int c = 0;
+for (c = 0; c < 10; c++)
 {
-if (n == 2 || n == 4)
+if (c == 2 || c == 4)
 {
 continue;
 }
 else
 {
-_putchar(n + '0');
+_putchar(c + '0');
 }
 }
 _putchar('\n');
