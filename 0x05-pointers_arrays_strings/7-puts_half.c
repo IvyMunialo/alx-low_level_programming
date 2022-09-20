@@ -1,22 +1,26 @@
 #include "main.h"
 /**
  *puts_half - function that prints half a string
- *_putchar - function to print characters
  *@str: string to be manipulated
+ *
+ *
 */
 void puts_half(char *str)
 {
-int index, half;
-index = 0;
-while (str[index] != '\0')
-index++;
-half = index / 2;
-if (index % 2 == 1)
-half++;
-while (half < index)
+int c = 0, position = 0;
+while (str[position] != '\0')
 {
-_putchar(str[half]);
-half++;
+position++;
+}
+half = position / 2;
+if (position % 2 != 0)
+{
+c++;
+}
+while (str[c] != '\0')
+{
+_putchar(str[n]);
+n++;
 }
 _putchar('\n');
 }
