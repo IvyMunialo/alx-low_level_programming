@@ -12,14 +12,14 @@ while (str[position] != '\0')
 {
 position++;
 }
-half = position / 2;
+c = position / 2;
 if (position % 2 != 0)
 {
 c++;
 }
 while (str[c] != '\0')
 {
-_putchar(str[n]);
+_putchar(str[c]);
 n++;
 }
 _putchar('\n');
