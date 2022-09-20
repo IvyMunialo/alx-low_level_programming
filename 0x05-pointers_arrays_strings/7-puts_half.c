@@ -2,7 +2,7 @@
 /**
  *puts_half - function that prints half a string
  *@str: string to be manipulated
- *_putchar - function to print output
+ *
  *
 */
 void puts_half(char *str)
@@ -19,8 +19,8 @@ c++;
 }
 while (str[c] != '\0')
 {
-_putchar(str[c]);
+putchar(str[c]);
 c++;
 }
-_putchar('\n');
+putchar('\n');
 }
