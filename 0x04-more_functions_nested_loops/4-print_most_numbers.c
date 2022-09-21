@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  *print_most_numbers - print 0 to 9
- */
+  *Return:always 0 (success)
+*/
 void print_most_numbers(void)
 {
 int c;
