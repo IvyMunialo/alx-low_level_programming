@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 /**
  * _strcat -  function used to concatenate two strings
  *@dest: is the string to be appended to
@@ -9,12 +8,10 @@
 */
 char *_strcat(char *dest, char *src)
 {
-int c = 0, d = 0;
-while (dest[c] != '\0')
 {
-c++;
-}
-while ((dest[c++] = src[d++]) != '\0')
-;
-return (dest);
+ char dest;
+ char src;
+ strcat(dest,src);
+ printf("Concatenated String: %s\n", dest);
+ return (0);
 }
