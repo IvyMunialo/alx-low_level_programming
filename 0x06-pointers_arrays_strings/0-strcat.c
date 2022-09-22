@@ -8,9 +8,9 @@
 */
 char *_strcat(char *dest, char *src)
 {
- char dest;
- char src;
- strcat(dest,src);
- printf("Concatenated String: %s\n", dest);
- return (0);
+    char destination[] = "dest ";
+    char source[] = "src!";
+    strcat(destination,source);
+    printf("Concatenated String: %s\n", destination);
+    return 0;
 }
