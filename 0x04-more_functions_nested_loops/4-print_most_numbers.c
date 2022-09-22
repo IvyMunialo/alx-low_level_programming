@@ -1,10 +1,8 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 /**
- *print_most_numbers - print 0 to 9
- *
+ *print_most_numbers - print 0 to 9 except 2 & 4
+ *Return: always 0 9 (success)
  *
 */
 void print_most_numbers(void)
