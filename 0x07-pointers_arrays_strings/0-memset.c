@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  *_memset - function that fils memory with costant byte
