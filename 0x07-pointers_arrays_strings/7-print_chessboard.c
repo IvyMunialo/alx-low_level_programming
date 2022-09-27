@@ -1,19 +1,19 @@
-#include <stdio.h>
 #include "main.h"
 /**
- *print_chessboard - function that prints the chessboard
- *@dest: destination string
- *@src: source string
- *@n: buffer length
- *Return: new string
-*/
+ * print_chessboard - function that prints the chessboard.
+ * @a: input matrix
+ * Return: void
+ */
 void print_chessboard(char (*a)[8])
 {
-unasigned int i = 0;
-while (i < n)
+int q;
+int r;
+for (q = 0; q < 8; q++)
 {
-*(src + i) = *(dest + i);
-i++;
+for (r = 0; r < 8; r++)
+{
+_putchar(a[q][r]);
 }
-return (dest);
+_putchar('\n');
+}
 }
