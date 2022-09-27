@@ -1,18 +1,18 @@
 #include "main.h"
 /**
- *_memset - function that fils memory with costant byte
- *@n: is the length of buffer
- *@s: is the source string
- *@b: is the constant byte
- *Return: new string
+*_memset - is a function to set a a string
+*@s:the string to copy to
+*@b:the character to be copied to
+*@n:The number of characters to be copied to.
+*Return: pointer to dest
 */
 char *_memset(char *s, char b, unsigned int n)
 {
-unasigned int i = 0;
-while (i < n)
+int i;
+for (i = 0; n; i++)
 {
 *(s + i) = b;
-i++;
+n--;
 }
 return (s);
 }
