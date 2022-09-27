@@ -1,19 +1,22 @@
-#include <stdio.h>
 #include "main.h"
 /**
- *_strchr - locates a character in a string
- *@dest: destination string
- *@src: source string
- *@n: buffer length
- *Return: new string
+ * _strchr - function that locates a character in a string
+ * @s: pointer to string
+ * @c: character to be found
+ *Return: pointer to the 1st occurrence of c in s. Null if not found.
 */
 char *_strchr(char *s, char c)
 {
-unasigned int i = 0;
-while (i < n)
+for (; *s != '\0'; s++)
 {
-*(src + i) = *(dest + i);
-i++;
+if (*s == c)
+{
+return (s);
 }
-return (dest);
+}
+if (*s == c)
+{
+return (s);
+}
+return (0);
 }
