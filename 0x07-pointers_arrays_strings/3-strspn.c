@@ -1,19 +1,30 @@
-#include <stdio.h>
 #include "main.h"
 /**
- *int _strspn - function that gets the length of a prefix substring
- *@dest: destination string
- *@src: source string
- *@n: buffer length
- *Return: new string
+ *_strspn - function that gets the length of a prefix substring
+ *@s:input string
+ *@accept:bytes to be accepted in the substring
+ *Return:number of bytes in the initial segment of s coninting accept bytes
 */
 unsigned int _strspn(char *s, char *accept)
 {
-unasigned int i = 0;
-while (i < n)
+int c;
+unsigned int count = 0;
+for (; *s != '\0'; s++)
 {
-*(src + i) = *(dest + i);
-i++;
+c = 0;
+while (accept[c] != '\0')
+{
+if (*s == accept[c])
+{
+++count;
+break;
 }
-return (dest);
+++c;
+}
+if (accept[c] == '\0')
+{
+return (count);
+}
+}
+return (count);
 }
