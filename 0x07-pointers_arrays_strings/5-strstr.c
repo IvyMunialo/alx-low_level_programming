@@ -7,30 +7,30 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-int i = 0;
-char *p = 0;
+int s = 0;
+char *t = 0;
 if (*needle == '\0')
 {
 return (haystack);
 }
 for (; *haystack != '\0'; haystack++)
 {
-if (*haystack == needle[i])
+if (*haystack == needle[s])
 {
-if (!i)
+if (!s)
 {
-p = haystack;
+t = haystack;
 }
-if (needle[i + 1] == '\0')
+if (needle[s + 1] == '\0')
 {
-return (p);
+return (t);
 }
-i++;
+s++;
 }
 else
 {
-p = 0;
-i = 0;
+t = 0;
+s = 0;
 }
 }
 return (0);
