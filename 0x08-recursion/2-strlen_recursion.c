@@ -13,5 +13,4 @@ if (*s)
 len++;
 len += _strlen_recursion(s + 1);
 }
-
-
+}
