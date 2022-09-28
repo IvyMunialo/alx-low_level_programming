@@ -17,4 +17,5 @@ int check_facts(int num, int f);
 int compare(char *s1, char *s2);
 int _get_rev(char *s, char *d);
 int is_palindrome(char *s);
+int _pow_recursion(int x, int y);
 #endif
