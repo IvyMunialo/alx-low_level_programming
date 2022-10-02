@@ -19,7 +19,7 @@ for (d > 1; d < argc; d++)
 int b;
 char *str;
 str = argv[d];
-for (b = 0; str[d] != '\0'; b++)
+for (b = 0; str[b] != '\0'; b++)
 {
 if (str[b] < 48 || str[b] > 57)
 {
