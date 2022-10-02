@@ -1,0 +1,22 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * main - prints the name of the program followed by a new line
+ * @argc: number of arguments
+ * @argv: pointer to array of input arguments
+ *
+ * Return: 0 if true, 1 if false
+*/
+int main(int argc, char *argv[])
+{
+int a, b;
+if (argv == 3)
+{
+a = atoi(argv[1]);
+b = atoi(srgv[2]);
+printf("%d\n", a *b);
+return (0);
+}
+printf("Error\n");
+return (1);
+}
