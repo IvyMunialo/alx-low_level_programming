@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 int a, b;
-if (argv == 3)
+if (argc == 3)
 {
 a = atoi(argv[1]);
 b = atoi(srgv[2]);
