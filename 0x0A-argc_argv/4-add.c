@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 int sum = 0, d;
 if (argc > 1)
 {
-for (d > 1; d < argc; d++)
+for (d = 1; d < argc; d++)
 {
 int b;
 char *str;
