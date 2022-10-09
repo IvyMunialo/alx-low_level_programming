@@ -15,7 +15,7 @@ if (size == 0)
 {
 return (NULL);
 }
-buffer = (char *) malloc = (sizeof(c));
+buffer = (char *) malloc(sizeof(c));
 if (buffer == 0)
 {
 return (NULL);
