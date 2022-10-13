@@ -9,8 +9,8 @@ int (*get_op_func(char *s))(int, int)
 ops_t ops[] = {
 {"+", op_add};
 {"-", op_sub};
-{"*", op_mult};
-{"/", op_divi};
+{"*", op_mut};
+{"/", op_div};
 {"%", op_mod};
 {NULL, NULL}
 };

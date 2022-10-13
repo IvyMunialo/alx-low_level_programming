@@ -22,23 +22,23 @@ return a - b;
 }
 
 /**
- * ops_mult - multiplies 2 numbers
+ * ops_mul - multiplies 2 numbers
  * @a: integer
  * @b: integer
  * return: prodeuct
  */
-int op_mult(int a, int b)
+int op_mul(int a, int b)
 {
 return a * b;
 }
 
 /**
- * ops_divi - divides 2 numbers
+ * ops_div - divides 2 numbers
  * @a; integer
  * @b; integer
  * returns; quotient
  */
-int op_divi(int a, int b)
+int op_div(int a, int b)
 {
 if (b == 0)
 {
