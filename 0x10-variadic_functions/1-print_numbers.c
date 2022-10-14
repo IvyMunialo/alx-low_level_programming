@@ -9,16 +9,16 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-va_list nums;
-unsigned int index;
-va_start(nums, n);
-for (index = 0; index < n; index++)
+va_list ap;
+unsigned int count;
+va_start(ap, n);
+for (count = 0; count < n; count++)
 {
-printf("%d", va_arg(nums, int);
-if (index != (n - 1) && separator != (NULL)
+printf("%d", va_arg(ap, int));
+if (count != (n - 1) && separator != (NULL)
 printf("%s", separator);
 }
 printf("\n");
-va_end(nums);
+va_end(ap);
 }
 
