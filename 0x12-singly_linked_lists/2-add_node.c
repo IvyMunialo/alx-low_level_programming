@@ -3,7 +3,7 @@
 #include "lists.h"
 #include <string.h>
 /**
- * add_node - function that prints all the elements of a list_t list
+ * add_node - function that adds a new node at the start of list
  * @head: input header pointer
  * @str: Input string value
  * Return: address of the new element, or NULL if it failed
